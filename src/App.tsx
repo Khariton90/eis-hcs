@@ -55,7 +55,6 @@ function App() {
 					$height='100%'
 				>
 					<TableTitle>Список счётчиков</TableTitle>
-
 					<Table
 						$background='#FFF'
 						$margin='1rem 0 0 0'
@@ -74,7 +73,6 @@ function App() {
 								))}
 							</Grid>
 						</TableHead>
-
 						<TableBody>
 							{arr.map(el => (
 								<TableRow key={el}>
